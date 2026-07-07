@@ -1,0 +1,30 @@
+====================================================
+   HEAVE - Start Here
+====================================================
+
+Want to use HEAVE? It takes two double-clicks. No commands.
+
+>>> WINDOWS (your PC) <<<
+Open the folder:   Installers  ->  Windows
+Then follow README.txt there. In short:
+   1. Double-click  "1 - SETUP HEAVE (double-click first).bat"   (once)
+   2. Double-click  "2 - START HEAVE.bat"                        (each time)
+HEAVE opens in your browser.
+
+>>> ANDROID (your phone) <<<
+Open the folder:   Installers  ->  Android
+Read README.txt. Short version: there is no real app file yet, but you
+can open HEAVE on your phone's browser over Wi-Fi while your PC runs it.
+
+----------------------------------------------------
+A note on ".exe" and ".apk"
+----------------------------------------------------
+A packaged one-click .exe installer and a real Android .apk have to be
+"built" (compiled) on special build machines. That is a separate step.
+The double-click setup above gives you the SAME working HEAVE today,
+without waiting for those builds - just click and go.
+
+If you ever want the true downloadable .exe / .apk, that is its own
+task and can be set up later (see Installers/Android/README.txt).
+
+That's everything. Enjoy HEAVE.

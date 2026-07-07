@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./heave.db:/app/heave.db
+      - ./memory:/app/memory
+      - ./backups:/app/backups
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+      - ./skills:/app/skills
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000/api
+    volumes:
+      - .:/app
+      - /app/node_modules
